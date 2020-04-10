@@ -10,24 +10,25 @@ using namespace std;
 Research Input data: go to http://www.weather.com
 
 Pick two cities of your choice.  Fill in the tmperature for the 7 days of this week o fboth cities.  Fill in this text data table, which will be used in your program.
+*/
 
-// City_One = 1, City_Two = 2 Replace City_One and City_Two with the names of your cities
-//Data table
+//Minneapolis = 1, College Station = 2 //Replace City_One and City_Two with the names of your cities
+Data table
 //City x, Day X: Temp
-City 1, Day 1: Temp
-City 1, Day 2: Temp
-City 1, Day 3: Temp
-City 1, Day 4: Temp
-City 1, Day 5: Temp
-City 1, Day 6: Temp
-City 1, Day 7: Temp
-City 2, Day 1: Temp
-City 2, Day 2: Temp
-City 2, Day 3: Temp
-City 2, Day 4: Temp
-City 2, Day 5: Temp
-City 2, Day 6: Temp
-City 2, Day 7: Temp
+City 1, Day 1: 51
+City 1, Day 2: 56
+City 1, Day 3: 35
+City 1, Day 4: 37
+City 1, Day 5: 36
+City 1, Day 6: 40
+City 1, Day 7: 46
+City 2, Day 1: 75
+City 2, Day 2: 75
+City 2, Day 3: 78
+City 2, Day 4: 60
+City 2, Day 5: 62
+City 2, Day 6: 68
+City 2, Day 7: 73
 */
 
 int main()
