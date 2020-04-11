@@ -62,10 +62,15 @@ for (int i = 0; i < CITY; ++i)
 {
     for(int j = 0; j < WEEK; ++j)
     {
-      cout << "City:  " << i + 1 << ", Day " << j + 1 << " = " << temperature[i][j] << endl;    
- 
+      cout << "City: ";
+        if(i == 0)
+          cout << "Minneapolis";
+        if (i == 1) 
+          cout << "College Station";
+                
+      cout << ", Day " << j + 1 << " = " << temperature[i][j] << endl;    
+        }
  }
-}
 
 return 0;
 
