@@ -9,12 +9,12 @@ using namespace std;
 /*
 Research Input data: go to http://www.weather.com
 
-Pick two cities of your choice.  Fill in the tmperature for the 7 days of this week o fboth cities.  Fill in this text data table, which will be used in your program.
+Pick two cities of your choice.  Fill in the tmperature for the 7 days of this week of both cities.  Fill in this text data table, which will be used in your program.
 */
 
-//Minneapolis = 1, College Station = 2 //Replace City_One and City_Two with the names of your cities
-Data table
-//City x, Day X: Temp
+//String Minneapolis = 1, College Station = 2 //Replace City_One and City_Two with the names of your cities
+//Data table
+/*City x, Day X: Temp
 City 1, Day 1: 51
 City 1, Day 2: 56
 City 1, Day 3: 35
@@ -36,9 +36,9 @@ int main()
   const int CITY = 2;
   const int WEEK = 7;
 
-  int temperature[CITY][WEEK];
+  int temperature[CITY][WEEK] =  {{51, 56, 35, 37, 36, 40,46}, {75, 75, 78, 60, 62, 68, 73}};
   //Note your input data from the above
-  cout << "Enter all temperature for a week o first city and then second city.\n";
+  //cout << "Enter all temperature for a week o first city and then second city.\n";
 
   // Inserting the values into the temperature arrays
   // note for every dimension of the array you need a for 
@@ -48,9 +48,11 @@ int main()
   {
       for(int j= 0; j< WEEK; ++j)
       {
-        cout << "City" << i + 1 << ", Day " << j + 1 << " : ";
-        cin >> temperature[i][j];
+       // cout << "City " << i + 1 << ", Day " << j + 1 << " : ";
+        //cin >> temperature[i][j];
+        //cout << temperature[i][j];      
       }
+
   }
 
 cout << "\n\nDisplaying Values: \n";
@@ -60,7 +62,7 @@ for (int i = 0; i < CITY; ++i)
 {
     for(int j = 0; j < WEEK; ++j)
     {
-      cout << "City " << i + 1 << ", Day " << j + 1 << " = " << temperature[i][j] << endl;    
+      cout << "City:  " << i + 1 << ", Day " << j + 1 << " = " << temperature[i][j] << endl;    
  
  }
 }
