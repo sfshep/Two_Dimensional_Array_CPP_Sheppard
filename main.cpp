@@ -44,7 +44,7 @@ int main()
   // note for every dimension of the array you need a for 
   // loop 2 dimensions = 2 for loops
 
-  for (int i = 0; i < CITY; ++i)
+ /* for (int i = 0; i < CITY; ++i)
   {
       for(int j= 0; j< WEEK; ++j)
       {
@@ -54,7 +54,7 @@ int main()
       }
 
   }
-
+ */
 cout << "\n\nDisplaying Values: \n";
 
 // Accessing the values from the temperature array
