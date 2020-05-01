@@ -1,7 +1,15 @@
-//Student Name: Stewart Sheppard
-//Teacher: Dr. Tyson McMillan
-//Date: 04-09-20
-//A program to practice working with multi-dimensional arrays
+/* Stewart Sheppard
+   March 30, 2020
+   Dr. Tyson McMillan
+   Tarrant County College
+   COSC 1437-58000
+   Text Editor: Repl.it
+   A program to practice working with multi-dimensional arrays.
+   Skills learned: experience with multi-dimensional arrays.
+*/
+
+
+
 
 #include <iostream>
 using namespace std;
@@ -39,6 +47,7 @@ int main()
   int temperature[CITY][WEEK] =  {{51, 56, 35, 37, 36, 40,46}, {75, 75, 78, 60, 62, 68, 73}};
   //Note your input data from the above
   //cout << "Enter all temperature for a week o first city and then second city.\n";
+  cout << "\nAll Temperatures are already entered for both Cities. \n";
 
   // Inserting the values into the temperature arrays
   // note for every dimension of the array you need a for 
